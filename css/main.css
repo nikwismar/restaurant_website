@@ -261,3 +261,72 @@ textarea {
   }
 }
 
+
+/* Start of Code */
+
+/* Home Page */
+
+img {
+  width: 100%;
+  height: auto;
+}
+.restaurant-title-header {
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant-subheader {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: green;
+  
+}
+
+.fancy-background {
+  height: 500px;
+  background-image: url(../img/seafood-platter.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.bottom-menu {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* Reservations Page */
+
+.reservation-title {
+  display: flex;
+  justify-content: center;
+}
+
+
+.reservation-subheader {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-text {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-categories {
+  display: flex;
+  justify-content: space-around;
+}
+
