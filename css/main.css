@@ -264,13 +264,19 @@ textarea {
 
 /* Start of Code */
 
+
+
+
+
+
+
 /* Home Page */
 
 img {
   width: 100%;
   height: auto;
 }
-.restaurant-title-header {
+.title-header {
   display: flex;
   justify-content: center;
 }
@@ -284,8 +290,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 50px;
-  color: green;
-  
+ 
 }
 
 .fancy-background {
@@ -303,8 +308,71 @@ img {
 
 
 
+/* General */
+
+img {
+  width: 500px;
+  height: auto;
+  max-height: 300px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
+
+
+/* Locations Page */
+
+.restaurant-locations {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location-title {
+  display: flex;
+  justify-content: center;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+}
+
+.location-contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-contact-info {
+  display: flex;
+  justify-content: center;
+}
+
+.location-review {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Menu Page */
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.item-title {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
 
 
 /* Reservations Page */
@@ -320,6 +388,11 @@ img {
   justify-content: center;
 }
 
+.reservation-h3 {
+  display: flex;
+  justify-content: center;
+}
+
 .reservation-text {
   display: flex;
   justify-content: center;
@@ -330,3 +403,13 @@ img {
   justify-content: space-around;
 }
 
+.contact-info-header {
+  display: flex;
+  justify-content: center;
+}
+
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
